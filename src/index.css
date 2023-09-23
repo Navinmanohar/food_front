@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding :0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* General Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content:center;
+  background-image: url('');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0px 0px 20px 0px;
+}
+
+/* Navbar Styles */
+.glass-navbar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  /* margin: px; */
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  position:sticky;
+  top: 0;
+  justify-content: space-around;
+  padding: 1em;
+  z-index: 1000;
+}
+
+.glass-navbar h1, .glass-navbar ul {
+  margin: 0;
+
+}
+
+.glass-navbar ul ,label{
+  cursor: pointer;
+}
+
+.glass-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Card Styles */
+.glass-card {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 15px;
+
+  margin: 3rem 1.5rem 1rem 3rem;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+  float:left;
+  width: 25%;
+  padding: 0 10px;
+  cursor: pointer;
+  
+ 
+} 
+
+
+.glass-card img {
+  width: 80%;
+  height: 13rem;
+  border-radius: 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+

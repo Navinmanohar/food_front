@@ -1,0 +1,28 @@
+/* Existing styles for other components */
+
+/* Styles for footer */
+.footer-container {
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footer-item {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+   
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .footer-item:hover {
+    box-shadow: 3px 3px 10px #0056b3, -3px -3px 10px #0099ff;
+  }
+  

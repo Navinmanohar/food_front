@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../../../swiggy"
+		},
+		{
+			"path": "../../../java_backend"
+		},
+		{
+			"path": "../../../LocalGpt"
+		},
+		{
+			"path": "../../../social-media"
+		},
+		{
+			"path": "../../../s"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "swiggy",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
